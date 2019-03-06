@@ -1,0 +1,11 @@
+.env/
+.vscode/
+
+node_modules/
+yarn.lock
+
+db.sqlite3
+
+__pycache__
+migrations/
+
