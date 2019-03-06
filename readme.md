@@ -1,6 +1,6 @@
 # Django React Docker Boilerplate
 
-Setup for creating a an authentication-based web application
+Setup for creating an authentication-based web application
 
 
 ## Functionalities
