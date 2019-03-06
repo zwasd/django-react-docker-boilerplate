@@ -2,7 +2,6 @@ import { createStore, applyMiddleware } from 'redux';
 import { routerMiddleware } from 'react-router-redux';
 import { apiMiddleware } from 'redux-api-middleware';
 
-import { messageMiddleware } from '../middlewares';
 import rootReducer from '../reducers';
 import { loadState } from '../localStorage';
 import history from '../history';
@@ -18,7 +17,6 @@ export const configureStore = () => {
         persistedState,
         applyMiddleware(
             apiMiddleware,
-            messageMiddleware,
             reduxRouterMiddleware
         )
     );
