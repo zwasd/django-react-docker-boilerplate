@@ -59,6 +59,7 @@ python manage.py runserver
 
 Install packages
 ```
+cd frontend
 yarn install
 ```
 
@@ -81,10 +82,10 @@ sudo docker-compose build
 
 Start servers
 ```
-docker-compose up
+sudo docker-compose up
 ```
 
 Stop servers
 ```
-docker-compose down
+sudo docker-compose down
 ```
